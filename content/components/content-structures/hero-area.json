@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_structures_hero_areas",
+  "info": {
+    "name": "Hero Area",
+    "icon": "trophy"
+  },
+  "options": {},
+  "attributes": {
+    "heroText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-blocks.title-and-text"
+    }
+  }
+}

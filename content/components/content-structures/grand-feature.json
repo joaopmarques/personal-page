@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_content_structures_grand_features",
+  "info": {
+    "name": "Grand Feature",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "featureText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-blocks.title-and-text"
+    },
+    "featureArtwork": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

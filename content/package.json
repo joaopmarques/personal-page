@@ -22,13 +22,13 @@
     "strapi-plugin-i18n": "3.6.7",
     "strapi-connector-bookshelf": "3.6.7",
     "knex": "0.21.18",
-    "sqlite3": "5.0.0"
+    "pg": "8.5.1"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "f16335e2-0c53-4d6e-b1bc-2e15a8ab37bd"
+    "uuid": "4e9d7eb5-c81e-48cc-9ece-cc59e0a8ba07"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
