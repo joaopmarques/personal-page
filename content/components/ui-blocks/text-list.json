@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ui_blocks_text_lists",
+  "info": {
+    "name": "Text List",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "entry": {
+      "type": "string"
+    }
+  }
+}
