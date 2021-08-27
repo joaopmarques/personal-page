@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_content_structures_product_sheets",
+  "info": {
+    "name": "Product Sheet",
+    "icon": "clone"
+  },
+  "options": {},
+  "attributes": {
+    "features": {
+      "type": "richtext"
+    },
+    "chartData": {
+      "type": "json"
+    },
+    "chartLabel": {
+      "type": "string"
+    }
+  }
+}
