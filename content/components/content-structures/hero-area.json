@@ -20,6 +20,12 @@
     },
     "sentenceLast": {
       "type": "string"
+    },
+    "buttonString": {
+      "type": "string"
+    },
+    "fieldPlaceholder": {
+      "type": "string"
     }
   }
 }
