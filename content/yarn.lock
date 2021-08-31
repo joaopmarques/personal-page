@@ -1107,6 +1107,13 @@
   dependencies:
     tslib "^2.0.1"
 
+"@forlagshuset/strapi-plugin-wysiwyg-toastui@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@forlagshuset/strapi-plugin-wysiwyg-toastui/-/strapi-plugin-wysiwyg-toastui-0.1.1.tgz#6a880df01e63b5a6914711a3c94b3bb369b3264b"
+  integrity sha512-2AfP8w64g3pyiXuvc6DRLGWvtwuN7nhUmFdio5p2opka5zKwxSRTmOgF09NlwJfElmbZphDJpbK4g4bkWn2TsA==
+  dependencies:
+    "@toast-ui/react-editor" "^2.1.2"
+
 "@formatjs/ecma402-abstract@1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@formatjs/ecma402-abstract/-/ecma402-abstract-1.4.0.tgz#ac6c17a8fffac43c6d68c849a7b732626d32654c"
@@ -1357,12 +1364,39 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
+"@toast-ui/editor@^2.5.2":
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/@toast-ui/editor/-/editor-2.5.3.tgz#c1a4094be7fa8516628c214de7d7e9c78dd1ebea"
+  integrity sha512-KKDBaB3fOylox1GZsfw0pDUOPFfpz9hqHmJvSwassWKeRUDkijJvpNdSwUn9jMxXSIvKqKoOxlv6say1JXxgAA==
+  dependencies:
+    "@types/codemirror" "0.0.71"
+    codemirror "^5.48.4"
+
+"@toast-ui/react-editor@^2.1.2":
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/@toast-ui/react-editor/-/react-editor-2.5.3.tgz#d52748aec59d8456b77c6ac159dafa40ff3d41c0"
+  integrity sha512-cGZ95Hb2n3Fpt0XdznKf/o2DV1HglLRXBCon7ASZWJvyxnusavKZFqDlp5ulZtG5CUIHGk65cGWNpoEMTcDKgQ==
+  dependencies:
+    "@toast-ui/editor" "^2.5.2"
+
 "@types/bson@*":
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/@types/bson/-/bson-4.0.5.tgz#9e0e1d1a6f8866483f96868a9b33bc804926b1fc"
   integrity sha512-vVLwMUqhYJSQ/WKcE60eFqcyuWse5fGH+NMAXHuKrUAPoryq3ATxk5o4bgYNtg5aOM4APVg7Hnb3ASqUYG0PKg==
   dependencies:
     "@types/node" "*"
+
+"@types/codemirror@0.0.71":
+  version "0.0.71"
+  resolved "https://registry.yarnpkg.com/@types/codemirror/-/codemirror-0.0.71.tgz#861f1bcb3100c0a064567c5400f2981cf4ae8ca7"
+  integrity sha512-b2oEEnno1LIGKMR7uBEsr40al1UijF1HEpRn0+Yf1xOLl24iQgB7DBpZVMM7y54G5wCNoclDrRO65E6KHPNO2w==
+  dependencies:
+    "@types/tern" "*"
+
+"@types/estree@*":
+  version "0.0.50"
+  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.50.tgz#1e0caa9364d3fccd2931c3ed96fdbeaa5d4cca83"
+  integrity sha512-C6N5s2ZFtuZRj54k2/zyRhNDjJwwcViAM3Nbm8zjBpbqAdZ00mr0CFxvSKeO8Y/e03WVFLpQMdHYVfUd6SB+Hw==
 
 "@types/formidable@^1.0.31":
   version "1.2.3"
@@ -1448,6 +1482,13 @@
   version "0.16.2"
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
+
+"@types/tern@*":
+  version "0.23.4"
+  resolved "https://registry.yarnpkg.com/@types/tern/-/tern-0.23.4.tgz#03926eb13dbeaf3ae0d390caf706b2643a0127fb"
+  integrity sha512-JAUw1iXGO1qaWwEOzxTKJZ/5JxVeON9kvGZ/osgZaJImBnyjyn0cjovPsf6FNLmyGY8Vw9DoXZCMlfMkMwHRWg==
+  dependencies:
+    "@types/estree" "*"
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
@@ -2748,7 +2789,7 @@ code-point-at@^1.0.0:
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-codemirror@^5.61.0:
+codemirror@^5.48.4, codemirror@^5.61.0:
   version "5.62.3"
   resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.62.3.tgz#5cfdee6931c8b2d1b39ae773aaaaec2cc6b5558e"
   integrity sha512-zZAyOfN8TU67ngqrxhOgtkSAGV9jSpN1snbl8elPtnh9Z5A11daR405+dhLzLnuXrwX0WCShWlybxPN3QC/9Pg==
