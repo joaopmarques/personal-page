@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_content_structures_product_sheets",
+  "info": {
+    "name": "Product Sheet",
+    "icon": "clone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "chartData": {
+      "type": "json"
+    },
+    "chartLabel": {
+      "type": "string"
+    },
+    "listElements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-blocks.text-list"
+    }
+  }
+}

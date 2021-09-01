@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_structures_headers",
+  "info": {
+    "name": "Header",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "nameDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-blocks.title-and-text"
+    }
+  }
+}

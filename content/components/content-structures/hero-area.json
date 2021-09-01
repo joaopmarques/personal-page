@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_content_structures_hero_areas",
+  "info": {
+    "name": "Hero Area",
+    "icon": "trophy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sentenceFirst": {
+      "type": "string"
+    },
+    "typeList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-blocks.text-list"
+    },
+    "sentenceSecond": {
+      "type": "string"
+    },
+    "sentenceLast": {
+      "type": "string"
+    },
+    "buttonString": {
+      "type": "string"
+    },
+    "fieldPlaceholder": {
+      "type": "string"
+    }
+  }
+}

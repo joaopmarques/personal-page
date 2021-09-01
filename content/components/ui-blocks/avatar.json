@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_ui_blocks_avatars",
+  "info": {
+    "name": "Avatar",
+    "icon": "user-circle"
+  },
+  "options": {},
+  "attributes": {
+    "avatarPicture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "altText": {
+      "type": "string"
+    }
+  }
+}
